@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="XHTML"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="en"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Topic"></unicode>
+   <unicode value="Section"></unicode>
+   <unicode value="Unit"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="tutor"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="22"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="7"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="4">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Tutorial membuat moodle workshop"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Free Text"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="childs"></string>
+        <list></list>
+        <string role="key" value="content"></string>
+        <instance class="exe.engine.field.TextAreaField" reference="3">
+         <dictionary>
+          <string role="key" value="_id"></string>
+          <int value="85"></int>
+          <string role="key" value="_idevice"></string>
+          <reference key="1"></reference>
+          <string role="key" value="_instruc"></string>
+          <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+          <string role="key" value="_name"></string>
+          <unicode value="Free Text"></unicode>
+          <string role="key" value="anchor_names"></string>
+          <list></list>
+          <string role="key" value="anchors_linked_from_fields"></string>
+          <dictionary></dictionary>
+          <string role="key" value="content_w_resourcePaths"></string>
+          <unicode content="true" value="&lt;p&gt;&lt;img src=&quot;resources/moodle_logo-4045x1000.jpg&quot; width=&quot;364&quot; height=&quot;90&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: xx-large;&quot;&gt;&lt;strong&gt;Tutorial Workshop Activity Moodle&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+          <int value="3"></int>
+          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="htmlTag"></string>
+          <string value="div"></string>
+          <string role="key" value="images"></string>
+          <instance class="exe.engine.galleryidevice.GalleryImages">
+           <dictionary>
+            <string role="key" value=".listitems"></string>
+            <list>
+             <instance class="exe.engine.galleryidevice.GalleryImage">
+              <dictionary>
+               <string role="key" value="_caption"></string>
+               <instance class="exe.engine.field.TextField">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <int value="161"></int>
+                 <string role="key" value="_idevice"></string>
+                 <none></none>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="content"></string>
+                 <string value=""></string>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="3"></int>
+                </dictionary>
+               </instance>
+               <string role="key" value="_id"></string>
+               <unicode value="10_85.0"></unicode>
+               <string role="key" value="_imageResource"></string>
+               <instance class="exe.engine.resource.Resource" reference="5">
+                <dictionary>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="1"></reference>
+                 <string role="key" value="_package"></string>
+                 <reference key="2"></reference>
+                 <string role="key" value="_storageName"></string>
+                 <string value="moodle_logo-4045x1000.jpg"></string>
+                 <string role="key" value="_userName"></string>
+                 <string value="c:\\users\\virgia~1\\appdata\\local\\temp\\tmp41ea1e.eXe\\previews\\allyourbase\\moodle_logo-4045x1000.jpg"></string>
+                 <string role="key" value="checksum"></string>
+                 <string value="a27efa1f69e0ef300b312a1fb1672573"></string>
+                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                 <int value="2"></int>
+                </dictionary>
+               </instance>
+               <string role="key" value="_parent"></string>
+               <reference key="3"></reference>
+               <string role="key" value="_thumbnailResource"></string>
+               <none></none>
+               <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+               <int value="3"></int>
+               <string role="key" value="makeThumbnail"></string>
+               <bool value="0"></bool>
+              </dictionary>
+             </instance>
+            </list>
+            <string role="key" value="idevice"></string>
+            <reference key="3"></reference>
+           </dictionary>
+          </instance>
+          <string role="key" value="intlinks_to_anchors"></string>
+          <dictionary></dictionary>
+          <string role="key" value="nextImageId"></string>
+          <int value="1"></int>
+          <string role="key" value="parentNode"></string>
+          <reference key="4"></reference>
+         </dictionary>
+        </instance>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+        <int value="7"></int>
+        <string role="key" value="icon"></string>
+        <string value=""></string>
+        <string role="key" value="id"></string>
+        <unicode value="10"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parent"></string>
+        <none></none>
+        <string role="key" value="parentNode"></string>
+        <reference key="4"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="type"></string>
+        <none></none>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list>
+         <reference key="5"></reference>
+        </list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="2"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Tutorial%20membuat%20moodle%20workshop"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="8">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Pendahuluan"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="7">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="6"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div paragraphname=&quot;paragraph0&quot;&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: xx-large;&quot;&gt;Pendahuluan&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: small;&quot;&gt;&lt;span srcinfo=&quot;0:7&quot; dstinfo=&quot;0:8&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__0_7TO0_8&quot;&gt;Workshop&lt;/span&gt;&lt;span id=&quot;noHighlight_0.6032055595424026&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;9:10&quot; dstinfo=&quot;10:15&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__9_10TO10_15&quot;&gt;adalah&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7506384348962456&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;30:37&quot; dstinfo=&quot;17:24&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__30_37TO17_24&quot;&gt;kegiatan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.9457045763265342&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;19:28&quot; dstinfo=&quot;26:35&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__19_28TO26_35&quot;&gt;assessment&lt;/span&gt;&lt;span id=&quot;noHighlight_0.0687736296094954&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;14:17&quot; dstinfo=&quot;37:41&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__14_17TO37_41&quot;&gt;rekan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.20784941222518682&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;39:42&quot; dstinfo=&quot;43:48&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__39_42TO43_48&quot;&gt;dengan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.37351741292513907&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;44:47&quot; dstinfo=&quot;50:55&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__44_47TO50_55&quot;&gt;banyak&lt;/span&gt;&lt;span id=&quot;noHighlight_0.3458223713096231&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;49:55&quot; dstinfo=&quot;57:63&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__49_55TO57_63&quot;&gt;pilihan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.05591548141092062&quot;&gt;.&lt;/span&gt;&lt;span id=&quot;noHighlight_0.12004537391476333&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;58:65&quot; dstinfo=&quot;66:74&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__58_65TO66_74&quot;&gt;Mahasiswa &lt;/span&gt;&lt;span id=&quot;noHighlight_0.3526960324961692&quot;&gt;&lt;/span&gt;&lt;span srcinfo=&quot;67:72&quot; dstinfo=&quot;76:86&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__67_72TO76_86&quot;&gt;menyerahkan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.06347858626395464&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;80:83&quot; dstinfo=&quot;88:96&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__80_83TO88_96&quot;&gt;pekerjaan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5794576734770089&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;74:78&quot; dstinfo=&quot;98:103&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__74_78TO98_103&quot;&gt;mereka&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5463086953386664&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;85:87&quot; dstinfo=&quot;105:111&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__85_87TO105_111&quot;&gt;melalui&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8612524378113449&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;104:107&quot; dstinfo=&quot;113:116&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__104_107TO113_116&quot;&gt;alat&lt;/span&gt;&lt;span id=&quot;noHighlight_0.520806128391996&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;99:102&quot; dstinfo=&quot;118:121&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__99_102TO118_121&quot;&gt;teks&lt;/span&gt;&lt;span id=&quot;noHighlight_0.2200146501418203&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;92:97&quot; dstinfo=&quot;123:128&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__92_97TO123_128&quot;&gt;online&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7652917436789721&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;109:111&quot; dstinfo=&quot;130:132&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__109_111TO130_132&quot;&gt;dan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.22672964353114367&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;113:123&quot; dstinfo=&quot;134:141&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__113_123TO134_141&quot;&gt;lampiran&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8835830921307206&quot;&gt;.&lt;/span&gt;&lt;span id=&quot;noHighlight_0.9275428515393287&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;126:134&quot; dstinfo=&quot;144:146&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__126_134TO144_146&quot;&gt;Ada&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7173487679101527&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;136:138&quot; dstinfo=&quot;148:150&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__136_138TO148_150&quot;&gt;dua&lt;/span&gt;&lt;span id=&quot;noHighlight_0.0070130545645952225&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;140:145&quot; dstinfo=&quot;152:156&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__140_145TO152_156&quot;&gt;kelas &lt;/span&gt;&lt;span id=&quot;noHighlight_0.4755918481387198&quot;&gt;&lt;/span&gt;&lt;span srcinfo=&quot;147:149&quot; dstinfo=&quot;158:162&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__147_149TO158_162&quot;&gt;untuk&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8163855052553117&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;153:159&quot; dstinfo=&quot;164:172&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__153_159TO164_172&quot;&gt;mahasiswa&lt;/span&gt;&lt;span id=&quot;noHighlight_0.38529728865250945&quot;&gt;:&lt;/span&gt;&lt;span id=&quot;noHighlight_0.9027597464155406&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;172:175&quot; dstinfo=&quot;175:183&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__172_175TO175_183&quot;&gt;pekerjaan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7919426104053855&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;162:166&quot; dstinfo=&quot;185:190&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__162_166TO185_190&quot;&gt;mereka&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7670401663053781&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;168:170&quot; dstinfo=&quot;192:198&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__168_170TO192_198&quot;&gt;sendiri&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7472975414711982&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;177:179&quot; dstinfo=&quot;200:202&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__177_179TO200_202&quot;&gt;dan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7403848045505583&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;181:185&quot; dstinfo=&quot;204:209&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__181_185TO204_209&quot;&gt;mereka&lt;/span&gt;&lt;span id=&quot;noHighlight_0.10741082532331347&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;187:190&quot; dstinfo=&quot;211:215&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__187_190TO211_215&quot;&gt;rekan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7449847930110991&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;192:202&quot; dstinfo=&quot;217:225&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__192_202TO217_225&quot;&gt;penilaian&lt;/span&gt;&lt;span id=&quot;noHighlight_0.016399186104536057&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;213:220&quot; dstinfo=&quot;227:231&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__213_220TO227_231&quot;&gt;siswa&lt;/span&gt;&lt;span id=&quot;noHighlight_0.6795131496619433&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;207:211&quot; dstinfo=&quot;233:239&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__207_211TO233_239&quot;&gt;lainnya &lt;/span&gt;&lt;span id=&quot;noHighlight_0.468740078387782&quot;&gt;&lt;/span&gt;&lt;span srcinfo=&quot;223:226&quot; dstinfo=&quot;241:247&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__223_226TO241_247&quot; class=&quot;highlight&quot;&gt;bekerja&lt;/span&gt;&lt;span id=&quot;noHighlight_0.47432308620773256&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: small;&quot;&gt;&lt;span id=&quot;noHighlight_0.47432308620773256&quot;&gt;Workshop mirip dengan modul tugas dan meluas fungsinya dalam banyak cara.Namun, dianjurkan bahwa kursus fasilitator (guru) dan para peserta kursus (siswa ) memiliki setidaknya beberapa pengalaman dengan modul tugas sebelum lokakarya digunakan dalam kursus tersebut. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: small; line-height: 1.5;&quot;&gt;Workshop atau Lokakarya adalah fitur baru dalam Moodle 2. Fungsinya mirip dengan modul tugas yang diperluas fungsinya dalam banyak cara. Namun, dianjurkan bahwa fasilitator dan peserta kursus setidaknya memiliki beberapa pengalaman dengan modul penugasan sebelum Lokakarya yang digunakan dalam kursus. Seperti di Penugasan, peserta kursus menyerahkan pekerjaan mereka selama kegiatan Lokakarya. Setiap peserta kursus menyerahkan pekerjaan mereka sendiri. Pengajuan dapat terdiri dari teks dan lampiran. Oleh karena itu, penyerahan Lokakarya menggabungkan baik teks Online dan Upload jenis file dari modul Assignment.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: small; line-height: 1.5;&quot;&gt;Dalam tugas ini, para peserta kursus menyerahkan pekerjaan mereka selama kegiatan Workshop. Setiap peserta Lapangan mengirimkan karya mereka sendiri. Penyerahan dapat terdiri dari teks dan lampiran. Oleh karena itu, lokakarya penyerahan menggabungkan teks Online dan jenis file Upload tugas modul. Dukungan untuk tim kerja (dalam arti satu penyerahan per kelompok peserta) berada di luar lingkup dari modul lokakarya.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: small; line-height: 1.5;&quot;&gt;Pengiriman dinilai menggunakan bentuk penilaian terstruktur yang didefinisikan oleh fasilitator lapangan (guru). Workshop ini mendukung beberapa jenis bentuk penilaian. Mereka semua memungkinkan multi kriteria penilaian dibandingkan dengan modul tugas dimana hanya satu kelas diberikan untuk penyerahan.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: small; line-height: 1.5;&quot;&gt;Workshop ini mendukung proses penilaian rekan. Peserta mungkin akan diminta untuk menilai set yang dipilih pengajuan rekan-rekan mereka. Modul koordinat pengumpulan dan distribusi penilaian ini.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: small; line-height: 1.5;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Para peserta kursus mendapatkan benar-benar dua kelas dalam satu kegiatan Workshop - kelas untuk penyerahan mereka (yang adalah seberapa baik pekerjaan mereka dikirim) dan kelas untuk penilaian (itu adalah seberapa baik mereka dinilai rekan-rekan mereka). Kegiatan lokakarya menciptakan dua kelas item dalam kursus Intelligent routing dan mereka dapat dikumpulkan tidak seperlunya.&lt;/p&gt;
+&lt;p&gt;Proses rekan penilaian dan pemahaman bentuk penilaian dapat dipraktikkan di muka pada disebut pengiriman contoh. Contoh-contoh ini disediakan oleh fasilitator dengan penilaian referensi. Peserta workshop dapat menilai contoh-contoh ini dan membandingkan penilaian mereka dengan referensi satu.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: small; line-height: 1.5;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="7"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="16"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="8"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Tutorial%20membuat%20moodle%20workshop:Pendahuluan"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="11">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tutorial membuat Workshop"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="9">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="10">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="9"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;br /&gt;1. Dengan menghidupkan mode editing, di bagian yang ingin anda tambahkan workshop, klik link &quot;Add an activity or resource&quot; (atau, jika tidak ada, &quot;Tambah kegiatan&quot; menu drop-down) dan memilih workshop. Semua pengaturan dapat diperluas dengan mengklik &quot;Expand all&quot; link atas kanan.&lt;/p&gt;
+&lt;p&gt;2. Isi form workshop sesuai dengan kriteria yang ada di workshop. Kriteria ini diisikan oleh guru yang akan membuka workshop&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/01.png&quot; width=&quot;496&quot; height=&quot;250&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;3. Mencentang kotak alokasi ini akan memungkinkan mahasiswa untuk menyerahkan setelah batas waktu. Setiap pengajuan yang terlambat tidak dapat diedit oleh mahasiswa - mereka hanya memiliki satu kesempatan untuk menyerahkan. Jika pengajuan yang terlambat diperbolehkan, tidak ada cara untuk secara otomatis mengalokasikan asesor kepada mereka. Guru perlu secara manual mengalokasikan asesor pengiriman akhir ini. (Pengaturan alokasi yang dijelaskan di bawah ini - mereka akan dilakukan setelah pengaturan lokakarya ini telah diselamatkan dengan mengklik link “Allocate Submissions” disorot dengan kotak merah di gambar dashboard. Lihat fase Submission bagian).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/02.jpg&quot; width=&quot;529&quot; height=&quot;185&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;4. Siswa dapat melihat petunjuk ini saat workshop dalam tahap penilaian.&lt;/p&gt;
+&lt;p&gt;5. Setelah workshop telah kita kemudian dapat menetapkan pengaturan lain yang berkaitan dengan pengiriman. Hal ini dilakukan melalui mengklik pada menu yang disorot di bawah ini yang ditemukan ketika Anda klik pada link lokakarya atau setelah mengklik &quot;Save and Display&quot; pada penyelesaian workshop. Untuk mengakses menu cukup klik pada “Allocate Submissions”. Ini akan disorot dalam gambar oleh kotak merah.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/02.jpg&quot; width=&quot;468&quot; height=&quot;167&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;6. Di sini, guru dapat secara manual memilih siswa yang meninjau yang bekerja. Mahasiswa dapat meninjau bekerja bahkan jika mereka tidak memiliki diajukan apa-apa sendiri.&lt;span style=&quot;font-size: 0.75em; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Guru diberikan 5 pengaturan yang menentukan bagaimana alokasi acak akan bekerja.&lt;/p&gt;
+&lt;p&gt;1. Jumlah ulasan: di sini guru mengambil antara 0 dan 30 ulasan baik setiap pengiriman atau per resensi. 1. Itulah guru dapat memilih salah satu set jumlah ulasan setiap pengajuan harus memiliki atau jumlah ulasan setiap siswa telah melaksanakan&lt;br /&gt;2. Mencegah ulasan: Jika guru ingin untuk siswa dari kelompok yang sama untuk pernah meninjau saling bekerja, sebagai kemungkinan itu adalah pekerjaan mereka terlalu dalam penyerahan grup, maka mereka dapat memeriksa kotak ini dan moodle akan memastikan bahwa mereka hanya dialokasikan siswa lain dari kelompok kerja untuk mengakses&lt;br /&gt;3. Menghapus saat ini alokasi: cek pada kotak ini berarti bahwa setiap alokasi manual yang telah ditetapkan dalam menu Manual alokasi akan dihapus&lt;br /&gt;4. Dapat mengakses dengan penyerahan no: memiliki kotak ini dicentang memungkinkan siswa untuk menilai siswa lainnya bekerja tanpa memiliki sudah menyerahkan pekerjaan mereka sendiri.&lt;br /&gt;5. Tambahkan penilaian diri: opsi ini ketika memeriksa memastikan bahwa serta menilai siswa lain kerja mereka harus juga menilai mereka sendiri. Ini adalah pilihan yang baik untuk mengajar siswa bagaimana untuk bersikap objektif untuk pekerjaan mereka sendiri.&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="164"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="3"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="18_85.0"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="12">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="9"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="01.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="c:\\users\\virgia~1\\appdata\\local\\temp\\tmp41ea1e.eXe\\previews\\allyourbase\\01.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="0718158e1a6d9cce2e53c9aa7873cf07"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="10"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="165"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="3"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="18_85.1"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="13">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="9"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="02.jpg"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="c:\\users\\virgia~1\\appdata\\local\\temp\\tmp41ea1e.eXe\\previews\\allyourbase\\02.jpg"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="db13fac3711afab673232b95d8675509"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="10"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="166"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="3"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="18_85.2"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="14">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="9"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="02.jpg"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="c:\\users\\virgia~1\\appdata\\local\\temp\\tmp41ea1e.eXe\\previews\\allyourbase\\03.jpg"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="db13fac3711afab673232b95d8675509"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="10"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+               </list>
+               <string role="key" value="idevice"></string>
+               <reference key="10"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="3"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="11"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="18"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="11"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="12"></reference>
+            <reference key="13"></reference>
+            <reference key="14"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="15">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="16">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="15"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: xx-large;&quot;&gt;&lt;span srcinfo=&quot;18:23&quot; dstinfo=&quot;0:5&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__18_23TO0_5&quot;&gt;Metode&lt;/span&gt;&lt;span id=&quot;noHighlight_0.4391475503798574&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;6:16&quot; dstinfo=&quot;7:17&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__6_16TO7_17&quot;&gt;perhitungan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5661132000386715&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;0:4&quot; dstinfo=&quot;19:23&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__0_4TO19_23&quot;&gt;kelas&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: small;&quot;&gt;&lt;span srcinfo=&quot;0:4&quot; dstinfo=&quot;19:23&quot; paragraphname=&quot;paragraph0&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Pengaturan ini menentukan bagaimana menghitung nilai untuk penilaian. Saat ini ada hanya satu pilihan-perbandingan dengan penilaian terbaik.&lt;br /&gt;Perbandingan dengan penilaian terbaik mencoba membayangkan apa penilaian yang benar-benar adil hipotetis akan terlihat seperti.&lt;br /&gt;Sebagai contoh, seorang guru menggunakan jumlah kesalahan seperti penilaian strategi untuk rekan-menilai satu tugas. Strategi ini menggunakan beberapa pernyataan dan asesor hanya perlu memeriksa apakah pernyataan tertentu adalah lulus atau gagal. Itu adalah, mereka hanya perlu untuk memilih 'ya' atau 'tidak' untuk setiap kriteria dalam bentuk penilaian. Dalam hal ini, ada tiga asesor, Alice, Bob dan Cindy. Dan bentuk penilaian berisi tiga kriteria. Penulis akan mendapatkan 100% kelas jika semua kriteria berlalu, 75% jika dua kriteria berlalu, 25% jika hanya satu kriteria berlalu dan 0% jika penilai memberikan 'tidak' untuk semua tiga pernyataan. Berikut adalah penilaian mereka memberikan kepada satu pekerjaan tertentu:&lt;/p&gt;
+&lt;p&gt;Alice: Ya/Ya/tidak&lt;br /&gt;Bob: Ya/Ya/tidak&lt;br /&gt;Cindy: no/ya/yes&lt;/p&gt;
+&lt;p&gt;Kemudian penilaian terbaik akan:&lt;br /&gt;Ya, ya dan tidak&lt;br /&gt;Kedua, lokakarya akan memberikan nilai 100% penilaian yang terbaik. Berikutnya itu akan mengukur 'jarak' dari penilaian lain untuk penilaian terbaik ini. Semakin jauh jarak, kelas lebih rendah penilaian akan menerima. Dan perbandingan pengaturan, di samping pengaturan evaluasi kelas, penilaian akan menentukan seberapa cepat kelas jatuh ke bawah jika penilaian yang berbeda dari yang terbaik.&lt;/p&gt;
+&lt;p&gt;&lt;span srcinfo=&quot;0:3&quot; dstinfo=&quot;0:6&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__0_3TO0_6&quot;&gt;Catatan &lt;/span&gt;&lt;span id=&quot;noHighlight_0.13271954818628728&quot;&gt;:&lt;/span&gt;&lt;span id=&quot;noHighlight_0.9378326963633299&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;6:15&quot; dstinfo=&quot;9:20&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__6_15TO9_20&quot;&gt;Perbandingan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.9389402649831027&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;17:20&quot; dstinfo=&quot;22:27&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__17_20TO22_27&quot;&gt;dengan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.24389659776352346&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;42:47&quot; dstinfo=&quot;29:34&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__42_47TO29_34&quot;&gt;metode&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7119436236098409&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;31:40&quot; dstinfo=&quot;36:44&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__31_40TO36_44&quot;&gt;penilaian&lt;/span&gt;&lt;span id=&quot;noHighlight_0.15276599815115333&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;26:29&quot; dstinfo=&quot;46:52&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__26_29TO46_52&quot;&gt;terbaik&lt;/span&gt;&lt;span id=&quot;noHighlight_0.3818132246378809&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;49:52&quot; dstinfo=&quot;54:57&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__49_52TO54_57&quot;&gt;akan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.9937537882942706&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;54:60&quot; dstinfo=&quot;59:71&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__54_60TO59_71&quot;&gt;membandingkan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.30748244235292077&quot;&gt;&lt;/span&gt;&lt;span srcinfo=&quot;62:70&quot; dstinfo=&quot;73:81&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__62_70TO73_81&quot;&gt;tanggapan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.1352504212409258&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;75:78&quot; dstinfo=&quot;83:88&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__75_78TO83_88&quot;&gt;setiap&lt;/span&gt;&lt;span id=&quot;noHighlight_0.43741781916469336&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;91:99&quot; dstinfo=&quot;90:97&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__91_99TO90_97&quot;&gt;kriteria&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5115154406521469&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;80:89&quot; dstinfo=&quot;99:106&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__80_89TO99_106&quot;&gt;individu&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5577755800914019&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;101:110&quot; dstinfo=&quot;108:112&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__101_110TO108_112&quot;&gt;bukan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7297670373227447&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;112:120&quot; dstinfo=&quot;114:126&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__112_120TO114_126&quot;&gt;membandingkan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8496775922831148&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;132:137&quot; dstinfo=&quot;128:132&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__132_137TO128_132&quot;&gt;nilai&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7582682312931865&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;126:130&quot; dstinfo=&quot;134:138&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__126_130TO134_138&quot;&gt;akhir&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5714907476212829&quot;&gt;.&lt;/span&gt;&lt;span id=&quot;noHighlight_0.12691159453243017&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;140:141&quot; dstinfo=&quot;141:145&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__140_141TO141_145&quot;&gt;Dalam&lt;/span&gt;&lt;span id=&quot;noHighlight_0.29672378534451127&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;147:153&quot; dstinfo=&quot;147:152&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__147_153TO147_152&quot;&gt;contoh&lt;/span&gt;&lt;span id=&quot;noHighlight_0.9400059750769287&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;155:159&quot; dstinfo=&quot;154:160&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__155_159TO154_160&quot;&gt;di atas&lt;/span&gt;&lt;span id=&quot;noHighlight_0.3256443701684475&quot;&gt;,&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5084567593876272&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;162:164&quot; dstinfo=&quot;163:167&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__162_164TO163_167&quot;&gt;Semua&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5038320005405694&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;179:187&quot; dstinfo=&quot;169:174&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__179_187TO169_174&quot;&gt;asesor&lt;/span&gt;&lt;span id=&quot;noHighlight_0.1939927141647786&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;173:177&quot; dstinfo=&quot;176:179&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__173_177TO176_179&quot;&gt;tiga&lt;/span&gt;&lt;span id=&quot;noHighlight_0.6879035523161292&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;189:192&quot; dstinfo=&quot;181:190&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__189_192TO181_190&quot;&gt;memberikan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8313902618829161&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;194:196&quot; dstinfo=&quot;192:194&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__194_196TO192_194&quot;&gt;75%&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8827056281734258&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;198:199&quot; dstinfo=&quot;196:200&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__198_199TO196_200&quot;&gt;untuk&lt;/span&gt;&lt;span id=&quot;noHighlight_0.1371682316530496&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;205:214&quot; dstinfo=&quot;202:210&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__205_214TO202_210&quot;&gt;pengajuan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.26028264593333006&quot;&gt;.&lt;/span&gt;&lt;span id=&quot;noHighlight_0.6907924457918853&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;217:223&quot; dstinfo=&quot;213:217&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__217_223TO213_217&quot;&gt;Namun&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8465336188673973&quot;&gt;,&lt;/span&gt;&lt;span id=&quot;noHighlight_0.07364345248788595&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;226:229&quot; dstinfo=&quot;220:224&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__226_229TO220_224&quot;&gt;hanya&lt;/span&gt;&lt;span id=&quot;noHighlight_0.9425538291689008&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;231:235&quot; dstinfo=&quot;226:230&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__231_235TO226_230&quot;&gt;Alice&lt;/span&gt;&lt;span id=&quot;noHighlight_0.20863981312140822&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;237:239&quot; dstinfo=&quot;232:234&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__237_239TO232_234&quot;&gt;dan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.9199289768002927&quot;&gt;&lt;/span&gt;&lt;span srcinfo=&quot;241:243&quot; dstinfo=&quot;236:238&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__241_243TO236_238&quot;&gt;Bob&lt;/span&gt;&lt;span id=&quot;noHighlight_0.24880189076066017&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;245:248&quot; dstinfo=&quot;240:243&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__245_248TO240_243&quot;&gt;akan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.018932150211185217&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;250:252&quot; dstinfo=&quot;245:255&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__250_252TO245_255&quot;&gt;mendapatkan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.21225086622871459&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;254:257&quot; dstinfo=&quot;257:260&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__254_257TO257_260&quot;&gt;100%&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8683108403347433&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;259:263&quot; dstinfo=&quot;262:266&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__259_263TO262_266&quot;&gt;nilai&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5324773471802473&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;265:267&quot; dstinfo=&quot;268:272&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__265_267TO268_272&quot;&gt;untuk&lt;/span&gt;&lt;span id=&quot;noHighlight_0.6856623673811555&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;275:285&quot; dstinfo=&quot;274:282&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__275_285TO274_282&quot;&gt;penilaian&lt;/span&gt;&lt;span id=&quot;noHighlight_0.48245591786690056&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;269:273&quot; dstinfo=&quot;284:289&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__269_273TO284_289&quot;&gt;mereka&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8052733142394572&quot;&gt;,&lt;/span&gt;&lt;span id=&quot;noHighlight_0.10275412956252694&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;288:292&quot; dstinfo=&quot;292:300&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__288_292TO292_300&quot;&gt;sementara&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8524747125338763&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;294:298&quot; dstinfo=&quot;302:306&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__294_298TO302_306&quot;&gt;Cindy&lt;/span&gt;&lt;span id=&quot;noHighlight_0.931990520330146&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;300:303&quot; dstinfo=&quot;308:311&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__300_303TO308_311&quot;&gt;akan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7675473294220865&quot;&gt;&lt;/span&gt;&lt;span srcinfo=&quot;305:307&quot; dstinfo=&quot;313:323&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__305_307TO313_323&quot;&gt;mendapatkan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.8646543431095779&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;317:321&quot; dstinfo=&quot;325:329&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__317_321TO325_329&quot;&gt;nilai&lt;/span&gt;&lt;span id=&quot;noHighlight_0.657410689862445&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;309:309&quot; dstinfo=&quot;331:334&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__309_309TO331_334&quot;&gt;yang&lt;/span&gt;&lt;span id=&quot;noHighlight_0.3341888615395874&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;311:315&quot; dstinfo=&quot;336:347&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__311_315TO336_347&quot;&gt;lebih rendah&lt;/span&gt;&lt;span id=&quot;noHighlight_0.495652838377282&quot;&gt;.&lt;/span&gt;&lt;span id=&quot;noHighlight_0.6838894272223115&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;324:330&quot; dstinfo=&quot;350:355&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__324_330TO350_355&quot;&gt;Karena&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5588828530162573&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;332:336&quot; dstinfo=&quot;357:361&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__332_336TO357_361&quot;&gt;Alice&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5855424765031785&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;338:340&quot; dstinfo=&quot;363:365&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__338_340TO363_365&quot;&gt;dan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.4538643527776003&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;342:344&quot; dstinfo=&quot;367:369&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__342_344TO367_369&quot;&gt;Bob&lt;/span&gt;&lt;span id=&quot;noHighlight_0.21040735649876297&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;346:350&quot; dstinfo=&quot;371:376&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__346_350TO371_376&quot;&gt;setuju&lt;/span&gt;&lt;span id=&quot;noHighlight_0.6989345985930413&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;352:353&quot; dstinfo=&quot;378:382&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__352_353TO378_382&quot;&gt;dalam&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7447358216159046&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;366:374&quot; dstinfo=&quot;384:392&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__366_374TO384_392&quot;&gt;tanggapan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.7772797045763582&quot;&gt;&lt;/span&gt;&lt;span srcinfo=&quot;355:364&quot; dstinfo=&quot;394:401&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__355_364TO394_401&quot;&gt;individu&lt;/span&gt;&lt;span id=&quot;noHighlight_0.3371235174126923&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;376:378&quot; dstinfo=&quot;403:406&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__376_378TO403_406&quot;&gt;juga&lt;/span&gt;&lt;span id=&quot;noHighlight_0.3509047806728631&quot;&gt;,&lt;/span&gt;&lt;span id=&quot;noHighlight_0.6595271553378552&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;381:385&quot; dstinfo=&quot;409:417&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__381_385TO409_417&quot;&gt;sedangkan&lt;/span&gt;&lt;span id=&quot;noHighlight_0.1588549232110381&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;401:402&quot; dstinfo=&quot;419:423&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__401_402TO419_423&quot;&gt;dalam&lt;/span&gt;&lt;span id=&quot;noHighlight_0.13866258668713272&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;404:410&quot; dstinfo=&quot;425:431&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__404_410TO425_431&quot;&gt;Cindy's&lt;/span&gt;&lt;span id=&quot;noHighlight_0.02250177087262273&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;412:421&quot; dstinfo=&quot;433:441&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__412_421TO433_441&quot;&gt;penilaian&lt;/span&gt;&lt;span id=&quot;noHighlight_0.5590870908927172&quot;&gt; &lt;/span&gt;&lt;span srcinfo=&quot;427:435&quot; dstinfo=&quot;443:449&quot; paragraphname=&quot;paragraph0&quot; id=&quot;ouHighlight__427_435TO443_449&quot; class=&quot;highlight&quot;&gt;berbeda&lt;/span&gt;&lt;span id=&quot;noHighlight_0.25521676149219275&quot;&gt;.&lt;/span&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="16"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="20"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="11"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Tutorial%20membuat%20moodle%20workshop:Tutorial%20membuat%20Workshop"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="19">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tutorial menggunakan Workshop"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="17">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="18">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="17"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;1. Alur kerja&lt;/p&gt;
+&lt;p&gt;Untuk lokakarya modul dapat dipandang sebagai memiliki lima fase. Kegiatan lokakarya khas dapat mencakup beberapa hari atau bahkan berminggu-minggu. Guru switch aktivitas dari fase satu sama lain. Lokakarya khas mengikuti jalan yang lurus dari Setup untuk, penyerahan, penilaian, Grading evaluasi, dan berakhir dengan tertutup dihapus. Namun, jalur lanjutan rekursif juga mungkin. Perkembangan aktivitas divisualisasikan dalam apa yang disebut lokakarya perencana alat. Ini menampilkan semua tahap lokakarya dan menyoroti satu saat ini. Ini juga berisi semua tugas-tugas pengguna memiliki dalam tahap saat ini dengan informasi apakah tugas selesai atau belum selesai atau bahkan gagal.&lt;span style=&quot;font-size: 0.75em; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2. Fase setup&lt;br /&gt;Pada fase awal ini, peserta Workshop tidak bisa melakukan apa-apa (tidak memodifikasi mereka pengiriman atau penilaian mereka). Kursus fasilitator menggunakan tahap ini untuk mengubah pengaturan lokakarya, memodifikasi penilaian strategi tweak penilaian bentuk. Anda dapat beralih ke fase ini sewaktu-waktu Anda perlu mengubah pengaturan lokakarya dan mencegah pengguna memodifikasi pekerjaan mereka.&lt;/p&gt;
+&lt;p&gt;3. Tahap penyampaian&lt;br /&gt;Pada tahap penyampaian, peserta Workshop menyerahkan pekerjaan mereka. Akses kontrol tanggal dapat diatur sehingga bahkan jika lokakarya dalam fasa ini, mengirimkan dibatasi untuk jangka waktu tertentu saja. Penyerahan mulai tanggal (dan waktu), tanggal penyerahan akhir (dan waktu) atau keduanya dapat ditentukan. Fitur baru di Moodle 3.0!&lt;/p&gt;
+&lt;p&gt;Laporan submisions lokakarya memungkinkan guru untuk melihat yang telah diajukan dan yang telah tidak, dan filter dengan penyerahan dan terakhir diubah:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/05.png&quot; width=&quot;528&quot; height=&quot;326&quot; /&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="167"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="3"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="19_85.0"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="20">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="17"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="05.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="c:\\users\\virgia~1\\appdata\\local\\temp\\tmp41ea1e.eXe\\previews\\allyourbase\\05.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="7f34a75121bfddf58a189f1f37479ebd"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="18"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+               </list>
+               <string role="key" value="idevice"></string>
+               <reference key="18"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="1"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="19"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="19"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="19"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="20"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="6"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Tutorial%20membuat%20moodle%20workshop:Tutorial%20menggunakan%20Workshop"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="23">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Video Tutorial"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="21">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="22">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="21"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;Untuk lebih lanjutnya silahkan lihat di video tutorial pembuatan workshop di bawah ini&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;425&quot; height=&quot;350&quot; src=&quot;//www.youtube.com/embed/_nNgpkVe5k4&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="22"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="21"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="23"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Tutorial%20membuat%20moodle%20workshop:Video%20Tutorial"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="8"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="11"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="23"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="19"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="4"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="eaff33c8-c15b-44dc-9498-3776748460fb"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="license"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="eaff33c8-c15b-44dc-9498-3776748460fb"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="eaff33c8-c15b-44dc-9498-3776748460fb"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary>
+   <string role="key" value="0718158e1a6d9cce2e53c9aa7873cf07"></string>
+   <list>
+    <reference key="12"></reference>
+   </list>
+   <string role="key" value="7f34a75121bfddf58a189f1f37479ebd"></string>
+   <list>
+    <reference key="20"></reference>
+   </list>
+   <string role="key" value="a27efa1f69e0ef300b312a1fb1672573"></string>
+   <list>
+    <reference key="5"></reference>
+   </list>
+   <string role="key" value="db13fac3711afab673232b95d8675509"></string>
+   <list>
+    <reference key="13"></reference>
+    <reference key="14"></reference>
+   </list>
+  </dictionary>
+  <string role="key" value="root"></string>
+  <reference key="4"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="Kahurangi"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
